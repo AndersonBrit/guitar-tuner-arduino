@@ -1,0 +1,60 @@
+# =========================
+# Arduino & PlatformIO
+# =========================
+
+# Build / compilação
+/build/
+/.pio/
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.o
+*.d
+*.cpp
+
+# Arquivos temporários do Arduino
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# MacOS / Windows
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+# =========================
+# Libraries (não versionar bibliotecas externas)
+# =========================
+/libraries/*
+
+# =========================
+# Tinkercad (se exportares sketches)
+# =========================
+*.tinkercad
+
+# =========================
+# Outros arquivos temporários ou de backup
+# =========================
+*.old
+*.backup
+*.save
+
+# =========================
+# Python 
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
