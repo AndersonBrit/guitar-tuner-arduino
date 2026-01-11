@@ -1,0 +1,160 @@
+# =====================
+# Arduino / PlatformIO
+# =====================
+*.bin
+*.elf
+*.hex
+*.eep
+*.eep.hex
+*.map
+*.dmp
+*.o
+*.d
+*.dSYM/
+*.pio/
+*.pioenvs/
+*.ino.*
+*.log
+*.bak
+*.tmp
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+
+# Pastas de build da Arduino IDE
+build/
+*.pio/
+*.vs/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env/
+env/
+venv/
+ENV/
+*.sqlite3
+*.log
+
+# =====================
+# Node / API (se usar JS/Node)
+# =====================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# =====================
+# Base de dados
+# =====================
+*.sql
+*.db
+*.sqlite
+*.dump
+*.bak
+
+# =====================
+# Outros
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ==================================================
+# Virtual environments
+# ==================================================
+.env
+.envrc
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================================================
+# Build / distribution tools
+# ==================================================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==================================================
+# Logs and temporary files
+# ==================================================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==================================================
+# Tests and coverage reports
+# ==================================================
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+
+# ==================================================
+# IDEs and editors
+# ==================================================
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm / JetBrains IDEs
+.idea/
+
+# Spyder IDE
+.spyderproject
+.spyproject
+
+# Cursor editor
+.cursorignore
+.cursorindexingignore
+
+# ==================================================
+# Operating Systems
+# ==================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ==================================================
+# Jupyter Notebook
+# ==================================================
+.ipynb_checkpoints/
+
+# ==================================================
+# Sensitive configuration files
+# ==================================================
+.pypirc
+local_settings.py
+
+# =====================
+# Media (vídeos e imagens grandes)
+# =====================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
